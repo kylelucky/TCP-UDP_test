@@ -46,6 +46,7 @@ read()/write();
 socket();
 connect();
 read()/write();
+
 💡 핵심
 연결 기반 통신
 안정적인 데이터 전달
