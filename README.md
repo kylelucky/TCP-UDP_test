@@ -107,14 +107,23 @@ UDP는 빠르지만 신뢰성 부족
 📁 프로젝트 구조
 
 TCP-UDP_test/
+
 ├── tcpServer.c
+
 ├── tcpClient.c
+
 ├── echoServer.c
+
 ├── echoClient.c
+
 ├── headerFiles.h
+
 ├── README.md
+
 └── 과제.docx
+
 🔧 개선 방향
+
 멀티 클라이언트 처리 (fork / thread)
 select / epoll 기반 확장
 UDP 신뢰성 보완 (재전송 로직)
